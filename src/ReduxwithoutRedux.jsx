@@ -29,6 +29,7 @@ function ReduxwithoutRedux() {
                 return state
         }
     }
+    
     const dispatch = (action) => {
         setCount(reducer(count, action))
     }

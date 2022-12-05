@@ -1,6 +1,7 @@
 import './App.css'
 import { useSelector, useDispatch } from 'react-redux'
-import  {decrement, increment} from './ReduxToolkit/slice'
+// import  {decrement, increment} from './ReduxToolkit/slice'
+import { increment, decrement } from './Redux/Action'
 
 
 function App() {

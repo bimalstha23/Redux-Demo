@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
       <App />
     </Provider>
-    {/* <NoneedRedux /> */}
+    {/* <NoneedRedux /> */} 
     {/* <ReduxwithoutRedux /> */}
-  </React.StrictMode>
+  </React.StrictMode> 
 )
